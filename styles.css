@@ -1,0 +1,53 @@
+
+
+body{
+    padding:25px 100px;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+.navBar{
+    display:flex;
+    gap:2em;
+    margin-bottom: 100px;
+    
+
+}
+
+.headLogo{
+    display:flex;
+    flex:2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.textOne{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.textTwo{
+    display: flex;
+    flex-wrap:wrap;
+    width: 350px;
+}
+
+button{
+    background-color: #3882f6;
+    color:white;
+    width:fit-content;
+    border-radius: 8px;
+    padding:5px 15px;
+    margin-top: 10px;
+}
+/* The second section */
+
