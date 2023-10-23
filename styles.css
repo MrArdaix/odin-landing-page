@@ -74,11 +74,21 @@ button{
 .container2{
     display:flex;
     flex-direction: column;
+    align-content: center;
+}
+
+
+.sqContent{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
 }
 
 .sqOne,.sqTwo,.sqThree,.sqFour{
+    border-style: solid;
     border-color: blue;
-    border: 2px;
-    height:80px;
-    width: 80px;
+    border-radius: 8px;
+    height:100px;
+    width: 100px;
 }
