@@ -30,18 +30,23 @@ li{
     font-weight: bold;
 }
 
+.midContent{
+    display:flex;
+}
+
 .textOne{
     font-size: 48px;
     font-weight: bolder;
 }
 
 .textTwo{
-    display: flex;
+    
     flex-wrap:wrap;
     width: 350px;
 }
 
 button{
+    display: flex;
     background-color: #3882f6;
     color:white;
     width:fit-content;
@@ -49,5 +54,15 @@ button{
     padding:5px 15px;
     margin-top: 10px;
 }
+
+.placeholder{
+    display:flex;
+    background-color: gray;
+    height:200px;
+    width: 500px;
+    align-self: flex-end;
+}
+
+
 /* The second section */
 
