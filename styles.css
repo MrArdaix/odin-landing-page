@@ -1,13 +1,16 @@
 
-
-body{
-    padding:25px 100px;
+.conOneColor{
+    background-color: #1f2937;
+    color:#e5e7eb;
     
 }
+
+
 
 .container{
     display:flex;
     flex-direction: column;
+    padding:20px 200px;
 }
 
 li{
@@ -34,6 +37,7 @@ li{
     display:flex;
     flex-direction: column;
     flex:1;
+    gap:5px;
 }
 
 .textOne{
@@ -63,7 +67,7 @@ button{
     height:200px;
     width: 500px;
     align-self: flex-end;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     color:white;
 }
@@ -72,19 +76,12 @@ button{
 /* The second section */
 
 .container2{
-    display:flex;
-    gap:2em;
     margin-top: 50px;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
+    padding:20px 200px;
 }
 
-.conTwoText{
-    
-    font-size:100px;
-    font-weight: bold;
-    
+.container2 div .conTwoText{
+    font-size: larger;
 }
 
 .sqContent{
@@ -95,9 +92,16 @@ button{
 }
 
 .sqOne,.sqTwo,.sqThree,.sqFour{
+    display:flex;
     border-style: solid;
     border-color: skyblue;
     border-radius: 8px;
     height:150px;
     width: 150px;
+    justify-content: space-evenly;
+}
+
+.infoOne,.infoTwo,.infoThree,.infoFour{
+    display:flex;
+    flex-direction: row;
 }
