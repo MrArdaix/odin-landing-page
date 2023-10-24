@@ -73,22 +73,31 @@ button{
 
 .container2{
     display:flex;
-    flex-direction: column;
+    gap:2em;
+    margin-top: 50px;
+    flex-direction: row;
     align-content: center;
+    align-items: center;
 }
 
+.conTwoText{
+    
+    font-size:100px;
+    font-weight: bold;
+    
+}
 
 .sqContent{
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
-    
+    order: 0;
 }
 
 .sqOne,.sqTwo,.sqThree,.sqFour{
     border-style: solid;
-    border-color: blue;
+    border-color: skyblue;
     border-radius: 8px;
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 150px;
 }
