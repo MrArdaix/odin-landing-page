@@ -39,6 +39,8 @@ li{
     justify-content:space-between;
     align-items:flex-start;
     gap:5px;
+    flex:1;
+    flex-wrap: row wrap;
 }
 
 
@@ -63,7 +65,7 @@ button{
 }
 
 .placeholder{
-    display: inline-flex; 
+    display: flex; 
     background-color: gray;
     height: 200px;
     width: 500px;
